@@ -48,7 +48,7 @@ const LoginForm = () => {
               onClick={(e) => {
                 e.preventDefault();
                 signIn("google", {
-                  callbackUrl: "/Dashboard/courses",
+                  callbackUrl: "/Dashboard/my-courses",
                 });
               }}
               // handleLogin={(e) => {
@@ -60,7 +60,7 @@ const LoginForm = () => {
             </Button>
           </div>
           <div className="mt-4 text-center text-sm">
-            Don't have an account?{" "}
+            Don't have an account?
             <Link href={"/auth/sign-up"} className="underline text-primary">
               Sign Up
             </Link>
