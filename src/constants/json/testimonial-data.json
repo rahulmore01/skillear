@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Solid foundation for any project",
+    "testimonial": "This is a very complex and beautiful set of elements. Under the hood it comes with the best things from 2 different worlds: Figma and Tailwind.",
+    "userImg": "/images/rahulimg.png",
+    "userName": "Bonnie Green",
+    "userDesignation": "CTO at Open AI"
+  },
+  {
+    "title": "Exceptional learning experience",
+    "testimonial": "The courses on Skillear are top-notch and have significantly improved my skills in web development. The instructors are knowledgeable and engaging also its amazing.",
+    "userImg": "/images/rahulimg.png",
+    "userName": "Jane Doe",
+    "userDesignation": "Frontend Developer at Google"
+  },
+  {
+    "title": "Highly recommended",
+    "testimonial": "Skillear offers a wide range of courses that cater to different skill levels. The platform is easy to navigate and the content is well-structured.",
+    "userImg": "/images/rahulimg.png",
+    "userName": "John Smith",
+    "userDesignation": "Software Engineer at Facebook"
+  },
+  {
+    "title": "Practical and insightful",
+    "testimonial": "The hands-on projects and real-world examples provided in the courses helped me apply what I learned immediately in my job.",
+    "userImg": "/images/rahulimg.png",
+    "userName": "Sarah Jones",
+    "userDesignation": "Data Scientist at Amazon"
+  },
+  {
+    "title": "Great for career advancement",
+    "testimonial": "Thanks to Skillear, I was able to upskill and land a promotion at my company. The courses are comprehensive and very informative and has great impact on me.",
+    "userImg": "/images/rahulimg.png",
+    "userName": "Michael Brown",
+    "userDesignation": "Product Manager at Microsoft"
+  },
+  {
+    "title": "Engaging and interactive",
+    "testimonial": "The interactive elements and quizzes in the courses make learning fun and engaging. I never felt bored and always looked forward to the next lesson.",
+    "userImg": "/images/rahulimg.png",
+    "userName": "Emily White",
+    "userDesignation": "UX Designer at Spotify"
+  },
+  {
+    "title": "In-depth and well-explained",
+    "testimonial": "The instructors on Skillear do a fantastic job of breaking down complex topics into easy-to-understand modules. Highly recommend for anyone looking to learn new skills.",
+    "userImg": "/images/rahulimg.png",
+    "userName": "David Black",
+    "userDesignation": "Cybersecurity Analyst at IBM"
+  },
+  {
+    "title": "Flexible and convenient",
+    "testimonial": "The ability to learn at my own pace and access the courses from anywhere made Skillear the perfect platform for my busy schedule,Skillear the perfect platform for my busy schedule,Skillear the perfect platform for my busy schedule.",
+    "userImg": "/images/rahulimg.png",
+    "userName": "Anna Green",
+    "userDesignation": "Marketing Specialist at LinkedIn"
+  },
+  {
+    "title": "Value for money",
+    "testimonial": "Skillear offers high-quality courses at an affordable price. The investment in my education has paid off greatly with the new skills I've acquired.",
+    "userImg": "/images/rahulimg.png",
+    "userName": "Robert Williams",
+    "userDesignation": "DevOps Engineer at Netflix"
+  }
+]

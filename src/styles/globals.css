@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shadcn dark theme color varables */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 142.1 76.2% 36.3%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    /* custom border */
+    /* --border: 240 5% 64.9%; */
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 142.1 76.2% 36.3%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 0 0% 95%;
+    --card: 24 9.8% 10%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 142.1 70.6% 45.3%;
+    --primary-foreground: 144.9 80.4% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 142.4 71.8% 29.2%;
+  }
+}
+
+/* fonts */
+@font-face {
+  font-family: font_tomato_grotesk;
+  src: url(../../public/fonts/Tomato_Grotesk/TomatoGrotesk-Bold.otf);
+}
+
+.primaryFont {
+  font-family: font_tomato_grotesk;
+}
+
+@font-face {
+  font-family: font_tomato_grotesk_md;
+  src: url(../../public/fonts/Tomato_Grotesk/TomatoGrotesk-Medium.otf);
+}
+
+.primaryFontMD {
+  font-family: font_tomato_grotesk_md;
+  letter-spacing: 0.3px;
+}
+
+@font-face {
+  font-family: space_grotesk;
+  src: url(../../public/fonts/SpaceGrotesk/SpaceGrotesk-Regular.otf);
+}
+
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
+
+.secondaryFont {
+  font-family: space_grotesk;
+}
+
+/* reusable css classes */
+.primaryBgColor {
+  background-color: #22c55d;
+}
+.hoverBgColor {
+  background-color: #169b47;
+}
+
+.sectionContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexCenterXY {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexXcenterYstart {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.flexBetXcenterY {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexColXstartYcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.flexColCenterXY {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading2 {
+  font-family: font_tomato_grotesk_md;
+  font-size: 34px;
+}

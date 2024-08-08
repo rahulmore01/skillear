@@ -1,0 +1,22 @@
+[
+  {
+    "question": "How can I pay for my appointment?",
+    "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum laboriosam recusandae facere dolorum veniam quia pariatur obcaecati illo ducimus?"
+  },
+  {
+    "question": "Is the cost of the appointment covered by private health insurance?",
+    "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+  },
+  {
+    "question": "Do I need a referral?",
+    "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+  },
+  {
+    "question": "What are your opening hours?",
+    "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+  },
+  {
+    "question": "What can I expect at my first consultation?",
+    "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+  }
+]
